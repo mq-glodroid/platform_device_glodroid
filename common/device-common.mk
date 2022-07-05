@@ -287,6 +287,15 @@ PRODUCT_PACKAGES += \
 
 endif
 
+PRODUCT_PACKAGES += \
+    libgpiod \
+    gpiodetect \
+    gpiofind \
+    gpioget \
+    gpioinfo \
+    gpiomon \
+    gpioset \
+
 ################################################################################
 
 PRODUCT_PACKAGES += fstab
