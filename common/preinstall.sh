@@ -10,3 +10,7 @@ if [ "${first_run}" != "false" ]; then
 
    setprop persist.glodroid.first_run false
 fi
+
+# MQ init
+echo test > /sys/power/wake_lock
+wm size 1280x720
